@@ -2,21 +2,20 @@
 using namespace std;
 
 // deklarasi secara global
-float a = 3.14159;
 int r;
 
-//fungsi dan prosedur
+//fungsi dan prosedur untuk program
 void input (){
     cout << "Masukan Jari-Jari Lingkaran : ";
     cin >> r;
 }
 
-float luaslingkaran (float a, int r){
-    return a*r*r;
+float luaslingkaran (int r){
+    return 3.14159*r*r;
 }
 
 void output(){
-    cout << "Hasilnya : " <<luaslingkaran(a,r) << endl;
+    cout << "Hasilnya : " <<luaslingkaran(r) << endl;
 }
 
 int main (){
