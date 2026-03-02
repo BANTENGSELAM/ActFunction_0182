@@ -18,6 +18,7 @@ void output(){
     cout << "Hasilnya : " <<luaslingkaran(r) << endl;
 }
 
+// untuk ditampilkan
 int main (){
     input ();
     output ();
